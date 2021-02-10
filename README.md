@@ -1,15 +1,20 @@
 # Russian Hadwritten Letters Classification 
 
 **Project Summary** :   
-The gola of this project is to create an engine capable to automatically classify an image of a handwritten letter into one of 33 categories/letters of Russian alphabet using the deep learning technologies.
+
+This is a personal data science project launched to apprehend : 
+- Keras Sequential model for classification task
+- OpenCV library fror image preprocessing and background noise removing
+
+The goal of this project is to create an engine capable to automatically classify an image of a handwritten letter into one of 33 categories/letters of Russian alphabet using the deep learning technologies.
 
 **Repo structure**
 
-This project's repo includes the following files:
+This repo includes the following files:
 
-- The project's final jupyter notebook (notebook.ipynb);
-- The final pretrained models (best_res_model.h5, best_gray_model.h5, best_full_model.h5)
-- 'Data' directory with the used dataset
+- The project's notebook (notebook.ipynb);
+- Three trained models  (best_res_model.h5, best_gray_model.h5, best_full_model.h5)
+- 'Data' directory containing the used dataset
 
 **Data source** :    
 
